@@ -1,0 +1,240 @@
+@charset 'UTF-8'
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+
+	font-family: 'Open Sans', sans serif;
+}
+
+#container {
+	background-color: #ffffff;
+	
+}
+
+
+
+
+#container {
+	
+	background-image: url('https://cdn.pixabay.com/photo/2016/03/24/13/45/coffee-1276781_960_720.jpg');
+	height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+
+ 
+
+
+.name {
+position: absolute;
+width: 1140px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+float: left;
+font-size: 20px;
+margin-left: 15px;
+	}
+
+	
+
+
+/*.navigation {*/
+/*position: fixed;*/
+/*}*/
+
+#main-nav {
+	background-color: #f1b149;
+	
+}
+
+/*main-nav h1 {*/
+	/*float: left;*/
+	/*font-size: 20px;*/
+	/*margin-left: 15px;*/
+	
+/*}*/
+
+
+#main-nav ul {
+	/*background-color: #eeb4b4;*/
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+	float: right;
+}
+
+#main-nav ul li {
+	display: inline-block;
+	width: 150px ;
+	height: 40px;
+	background-color: #ffffff;
+	opacity:.8;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	margin-right: 2px;
+	font-weight: bolder;
+
+}
+
+#main-nav ul li a {
+	text-decoration: none;
+	color: #008000;
+	display: block;
+}
+
+#main-nav ul li a:hover {
+	color: #f1b149; 
+	border-bottom: 2px solid #99ff99;
+	transition:all 0.5s ease-in;
+	padding: 5px;
+
+}
+
+#main-nav ul li ul li {
+	display: none;
+}
+
+#main-nav ul li:hover ul li{
+	display: block;
+}
+
+#active {
+	background: #ffffff;
+}
+
+/*styling about*/
+
+  
+.main h3 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+h3:after {
+	width: 100px;
+	height: 2px;
+	background-color: #f1b149;
+	display: block;
+	content: "";
+	margin:0 auto;
+	margin-top: 20px;
+
+}
+
+
+.intro {
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+/*styling portfolio*/
+
+.skills h3 {
+	margin-top: 50px; 
+	margin-bottom: 40px;
+}
+
+
+.skills-txt{
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.portfolio h3 {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.photos img {
+	width: 500px;
+	align: center;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 40px;
+
+}
+
+.txt {
+	text-align: center;
+}
+
+/*styling contact form*/
+
+/*.info {
+	background: linear-gradient(rgba(255, 248, 220, 0.8), rgba(255, 248, 220, 0.8))
+	text-align: center;
+
+}*/
+
+
+
+
+
+
+.form-control {
+	width: 600px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid yellow;
+	margin-top: 50px;
+	margin-left: 80px;
+	background: transparent;
+
+}	
+
+input {
+	height: 45px;
+}
+
+.snd {
+	margin-left: 250px;
+	margin-top: 50px;
+	width: 150px;
+	height: 40px;
+	font-size: 15px bold;
+	border-style: none;
+	font-color: #ffffff;
+	background: #d4da3f;
+}	
+	
+.snd:hover {
+	cursor: pointer;
+	background: #efe8ef;
+}
+
+.contact-title {
+	display: table-row;
+}
+
+.contact-title {
+	float: left;
+}
+
+.some-text {
+	float: right;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 80px;
+}
+
+
+.social {
+	color: #ff0000;
+}
+
+
+
+
+
+/*footer*/
